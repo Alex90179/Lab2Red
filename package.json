@@ -1,0 +1,24 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async_hooks": "^1.0.0",
+    "axios": "^0.21.1",
+    "fs-extra": "^9.1.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.0.2",
+    "less": "^4.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

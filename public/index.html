@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab2, Parcel</title>
+<body bgcolor=#DEB887>
+    <h3>Ищем вашего игрока</h3>
+    <form id="form1" align='left'>
+        <p><input type="text" class="Ввод логина" id="Вводим логин"  placeholder="Вводи логин" ></p>
+        <P><input  type="button" id="sub1" class="Принять" value="Отправить" ></P>
+    </form>
+    <h4>Новый воин</h4>
+    <form id="form2" align='left'>
+        <p></p><input type="text" class="Ввести логин" id="Вводим логин"  placeholder="Вводи логин" ></p>
+        <p><input type="text" class="Ввести очки" id="Ввод-очков"  placeholder="Вводи рекорд" ></p>
+        <p><input type="button" id="sub2" class="Отправить" value="Отправить" ></p>
+    </form>
+    <h2>Таблица лучших игроков</h2> 
+    <table border="3" align="center" width="100%">
+        <tr>
+            <th>Login</th>
+            <th>Score</th>
+            <th>Date</th>
+            <th>Place</th>
+        </tr>
+
+        <tr>
+            <td id="login" align="left"></td>
+            <td id="score" align="left"></td>
+            <td id="date" align="left"></td>
+            <td id="place" align="left"></td>
+        </tr>
+    </table>
+    
+    <script src="../script/index.js"></script> 
+           
+</body>
+</html>
